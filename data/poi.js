@@ -4,7 +4,7 @@ var poiGeoJSON = {
     {
       "type": "Feature",
       "properties": {
-          title: "Grabando en El Rosa",
+          title: "Tomando posición en el 'Museo Tomado'",
           audio_url: "https://ingjuanmasuarez.github.io//MapaSonoro/audio/RegistrosSonorosSantaFe_Museo%20Rosa.mp3"
       },
       "geometry": {
@@ -21,7 +21,7 @@ var poiGeoJSON = {
 L.geoJSON(poiGeoJSON, {
   onEachFeature: function (feature, layer) {
       var contenidoPopup = 
-          "<h2>" + feature.properties.title + "</h2>" +
+          "<h3>" + feature.properties.title + "</h3>" +
           "<audio src = " + feature.properties.audio_url + " controls />"
       layer.bindPopup(contenidoPopup)
   }
