@@ -4,7 +4,7 @@ var PuenteGeoJSON = {
     {
       "type": "Feature",
       "properties": {
-         title: "Los pericos cantan al lado del Puente Candiotti",
+         title: "Cruzando el Puente Colgante",
          audio_url: "https://selevari.github.io//SonidosSantaFe/audio/Puente.mp3"
       },
       "geometry": {
