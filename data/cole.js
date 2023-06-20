@@ -21,7 +21,7 @@ var ColeGeoJSON = {
   L.geoJSON(ColeGeoJSON, {
     onEachFeature: function (feature, layer) {
         var UniPopup =
-            "<h5>" + feature.properties.title + "</h5>" +
+            "<h3>" + feature.properties.title + "</h3>" +
             "<audio src = " + feature.properties.audio_url + " controls />"
         layer.bindPopup(UniPopup)
     }
