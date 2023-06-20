@@ -4,7 +4,7 @@ var UniGeoJSON = {
       {
         "type": "Feature",
         "properties": {
-           title: "Dale Tatengue",
+           title: "¡Dale Tatengue!: La popular va a estallar",
            audio_url: "https://selevari.github.io//SonidosSantaFe/audio/uni%C3%B3n.wav"
         },
         "geometry": {
