@@ -21,7 +21,7 @@ var TrenGeoJSON = {
   L.geoJSON(TrenGeoJSON, {
     onEachFeature: function (feature, layer) {
         var trenPopup =
-            "<h7>" + feature.properties.title + "</h7>" +
+            "<h3>" + feature.properties.title + "</h3>" +
             "<audio src = " + feature.properties.audio_url + " controls />"
         layer.bindPopup(trenPopup)
     }
