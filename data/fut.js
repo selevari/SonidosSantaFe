@@ -21,7 +21,7 @@ var UniGeoJSON = {
   L.geoJSON(UniGeoJSON, {
     onEachFeature: function (feature, layer) {
         var UniPopup =
-            "<h4>" + feature.properties.title + "</h4>" +
+            "<h3>" + feature.properties.title + "</h3>" +
             "<audio src = " + feature.properties.audio_url + " controls />"
         layer.bindPopup(UniPopup)
     }
