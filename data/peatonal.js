@@ -4,7 +4,7 @@ var PeatonalGeoJSON = {
       {
         "type": "Feature",
         "properties": {
-            title: "Grabación de paisaje sonoro en el pasaje Peatonal",
+            title: "Caminando los sonidos de la peatonal",
             audio_url: "https://selevari.github.io/SonidosSantaFe/audio/peatonal.mp3"
         },
         "geometry": {
