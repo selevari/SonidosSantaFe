@@ -4,7 +4,7 @@ var ColeGeoJSON = {
       {
         "type": "Feature",
         "properties": {
-            title: "Esperando el cole luego de clase. 20:06hrs",
+            title: "El baile de los pasos arrastrados",
             audio_url: "https://selevari.github.io/SonidosSantaFe/audio/cole.aac"
         },
         "geometry": {
